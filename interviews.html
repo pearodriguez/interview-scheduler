@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interview Form</title>
+</head>
+
+<body>
+    <h2>Please Complete Form </h2>
+
+    <form action="interviews.php" method="POST">
+        <p><b>Interviewer's Information</b></p>
+        <p>Name: <input type="text" name="interviewer_name" /></p>
+        <p>Position: <input type="text" name="position" /></p>
+        <p>Date: <input type="date" name="interview_date" /></p>
+
+        <p><b>Candidate's Information</b></p>
+        <p>Name: <input type="text" name="candidate_name" /></p>
+        <p>Communication Abilities: <input type="text" name="com_abilities" /></p>
+        <p>Computer Skills: <input type="text" name="computer_skills" /></p>
+        <p>Business Knowledge: <input type="text" name="buss_skill" /></p>
+        <p>Comments </p>
+        <textarea name="comments" rows="4" cols="25"></textarea>
+        <p><input type="submit" value="Submit" /></p>
+
+    </form>
+
+    <p><a href="showInterviews.php">Show Interviews</a></p>
+
+</body>
+
+</html>
